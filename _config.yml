@@ -1,0 +1,161 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon_ann.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Yi-Chi (Angela) Wu
+title: Graduate at Rice University
+email: annwu@rice.edu
+# website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  angiecodinghub
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username: ychw
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Medium link
+  icon: fab fa-medium
+  url: https://medium.com/@ych_w
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile_ann.jpg
+about_content: | # this will include new lines to allow paragraphs
+  <br/>
+  Hi, my name is Angela, and I'm currently pursuing a Master of Computer Science degree at Rice University. My interest lies in the intersection of **Artificial Intelligence**, **Robotics**, and **Computer Vision**.
+  As a film enthusiast, I am also interested in **Computer Graphics**.
+  If you would like to know more about my background, please check out my  <a href='/assets/resume.pdf'><strong>résumé</strong></a>  or contact me via email.
+
+#  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+
+content:
+  - title: Selected Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Music Generation for Films
+        link: https://www.youtube.com/watch?v=N2DzU_CHsRA
+        # link_text: Project Website
+        additional_links:
+          - title: demo
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=N2DzU_CHsRA
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Contributors: Yi-Chi Wu, Hsi-Ai Tsao
+        description: | # this will include new lines to allow paragraphs
+          My dear friend and I came up with this project for our final presentation of the course - Applications of AI Neural Network Models.
+          Hopefully, it showcased our capability of dealing with both visual and audio data and both the problems of classification and generation. We learned a lot and had a blast while making this. You can check out the demo of this project by clicking on the above link.
+
+  - title: Experience  # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: AndroVideo Inc.
+        link: http://www.androvideo.com/
+        # link_text: boringcompany.com
+        sub_title: Artificial Intelligence R&D Intern
+        caption: Sep. 2020 - Feb. 2021
+        quote: >
+            An A.I. camera company with an integration of software and hardware that strives to develop simple yet effective products. 
+        description: | # this will include new lines to allow paragraphs
+            I worked on a team project where I made a pull-up counter with a **pose estimation** model on TensorFlow.
+            I also made a computer software for **facial expression recognition** that can run in real-time with close-to-zero lagging.
+
+      - layout: left
+        title: National Tsing Hua University
+        link: http://dcs-en.site.nthu.edu.tw/index.php
+        # link_text: boringcompany.com
+        sub_title: Summer Intern
+        caption: Jul. 2020 - Sep. 2020
+        quote: >
+            Advised by Nen-Fu ”Fred” Huang, Distinguished Professor and Dean, College of EECS.
+        #description: | # this will include new lines to allow paragraphs
+        #    Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Rice University
+        caption: 2021 - 
+        sub_title: Master of Computer Science
+        quote: >
+          Opened in 1912, Rice is a private research university in Houston, Texas. Constantly ranked as one of the top-ranked schools in the United States, 
+          it is known primarily for programs in science and engineering.
+        description: | # this will include new lines to allow paragraphs
+#          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+ #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: National Taiwan University
+        caption: 2017 - 2021
+        sub_title: BSc Atmospheric Sciences
+        quote: >
+          Founded in 1928, NTU is the most prestigious comprehensive university in Taiwan and one of the top-ranked universities in Asia with the motto: "integrity, diligence, fidelity, and compassion."
+        description: | # this will include new lines to allow paragraphs
+          I got to explore almost everything I'm interested in at NTU.
+ #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: University of California, Berkeley
+        caption: 2019
+        sub_title: Summer Session
+        quote: >
+          Established in 1868, it is the state's first land-grant university and the first campus of the University of California system. 
+          Berkeley is ranked among the world's top universities by major educational publications.
+        description: | # this will include new lines to allow paragraphs
+          My time at Berkeley laid a solid groundwork for my knowledge in Computer Science; it completely changed how I understand and construct codes.
+          It was fun writing organized and maintainable code while hanging out with people from all around the world that summer!
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in software engineering some of my other interests and hobbies are:
+      - music: from pop to indie, I listen to everything!
+      - sports: golf, tennis and swimming are what I enjoy the most!
+      - movies/tv series: literally can't live without these. Feel free to check out my ratings of films [here](https://letterboxd.com/angie_wu/)!
+      
+
+ #     Look at this cool image  
+ #     ![Trees](images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+references_title: modified from sproogen/resume-theme
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
