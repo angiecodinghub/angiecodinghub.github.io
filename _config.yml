@@ -100,7 +100,7 @@ content:
         quote: >
             Advised by Nen-Fu ”Fred” Huang, Distinguished Professor and Dean, College of EECS.
         description: | # this will include new lines to allow paragraphs
-            Although I've learned concepts of machine learning before, the internship marked as the start of my journey in the area officially.
+            Although I've learned concepts of machine learning before, the internship marked the start of my journey in the area officially.
             I got to contribute and participate a lot in the creation of the soybean detection model, and learned different facets to consider in an industry-academia collaboration.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -122,7 +122,7 @@ content:
           Founded in 1928, NTU is the most prestigious comprehensive university in Taiwan and one of the top-ranked universities in Asia with the motto: "integrity, diligence, fidelity, and compassion."
         description: | # this will include new lines to allow paragraphs
           I got to explore almost everything I'm interested in at NTU. I started coding as an Atmospheric Scientist to analyze data, and later fell in love with Computer Science because of its logicality.
-          The freedom we had in taking courses made it possible for me to explore all sorts of areas in Computer Science - Computer Vision, Machine Learning, Computer Network, just to name a few.
+          The freedom we had in taking courses made it possible for me to explore all sorts of areas in Computer Science: Computer Vision, Machine Learning, Computer Network, just to name a few.
           I am also very grateful to have met a lot of passionate and enthusiastic professors here.
       - layout: left
         title: University of California, Berkeley
