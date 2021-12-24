@@ -160,7 +160,7 @@ content:
           Opened in 1912, Rice is a private research university in Houston, Texas. Constantly ranked as one of the top-ranked schools in the United States, 
           it is known primarily for programs in science and engineering.
         description: | # this will include new lines to allow paragraphs
-          I am taking Graduate Object-Oriented Programming & Design, Graduate Design & Analysis of Algorithms, and Algorithmic Robotics this semester.
+          I am taking Statistical Machine Learning, Computer Graphics and Computer Science Project this semester.
       - layout: left
         title: National Taiwan University
         caption: 2017 - 2021
