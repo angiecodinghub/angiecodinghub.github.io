@@ -59,9 +59,9 @@ content:
   - title: Selected Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-- layout: top-middle
+      - layout: top-middle
         title: Pac-Man
-        link: http://pacman-final-team-whatsupp.herokuapp.com/
+        #link: http://pacman-final-team-whatsupp.herokuapp.com/
         # link_text: Project Website
         additional_links:
           - title: demo
@@ -77,9 +77,9 @@ content:
           and since I have to think about the project in the big picture in order to distribute the coding sections gracefully to the developers and jump in whenever technical problems arise, I got very familiar with the project.
           I had a great time working on this project and I'm very fond of the outcomes.
 
-- layout: top-middle
+      - layout: top-middle
         title: Chatapp
-        link: http://chatapp-final-team-whatsupp.herokuapp.com/
+        #link: http://chatapp-final-team-whatsupp.herokuapp.com/
         # link_text: Project Website
         additional_links:
           - title: demo
@@ -96,7 +96,7 @@ content:
 
       - layout: top-middle
         title: Music Generation for Films
-        link: https://www.youtube.com/watch?v=N2DzU_CHsRA
+        #link: https://www.youtube.com/watch?v=N2DzU_CHsRA
         # link_text: Project Website
         additional_links:
           - title: demo
