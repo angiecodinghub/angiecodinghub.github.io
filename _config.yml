@@ -61,11 +61,11 @@ content:
     content:
 - layout: top-middle
         title: Pac-Man
-        #link: http://pacman-final-team-whatsupp.herokuapp.com/
+        link: http://pacman-final-team-whatsupp.herokuapp.com/
         # link_text: Project Website
         additional_links:
           - title: demo
-            icon: fab fa-gamepad
+            icon: fa fa-gamepad
             url: http://pacman-final-team-whatsupp.herokuapp.com/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
@@ -79,11 +79,11 @@ content:
 
 - layout: top-middle
         title: Chatapp
-        #link: http://chatapp-final-team-whatsupp.herokuapp.com/
+        link: http://chatapp-final-team-whatsupp.herokuapp.com/
         # link_text: Project Website
         additional_links:
           - title: demo
-            icon: fab fa-comments
+            icon: fas fa-comments
             url: http://pacman-final-team-whatsupp.herokuapp.com/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
@@ -96,7 +96,7 @@ content:
 
       - layout: top-middle
         title: Music Generation for Films
-        #link: https://www.youtube.com/watch?v=N2DzU_CHsRA
+        link: https://www.youtube.com/watch?v=N2DzU_CHsRA
         # link_text: Project Website
         additional_links:
           - title: demo
