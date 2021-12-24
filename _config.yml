@@ -51,7 +51,7 @@ about_content: | # this will include new lines to allow paragraphs
   <br/>
   Hi, my name is Angela, and I'm currently pursuing a Master of Computer Science degree at Rice University. My interest lies in the intersection of **Artificial Intelligence**, **Robotics**, and **Computer Vision**.
   As a film enthusiast, I am also interested in **Computer Graphics**.
-  If you would like to know more about my background, please check out my  <a href='/assets/resume_nov2021.pdf'><strong>résumé</strong></a>  or contact me via email.
+  If you would like to know more about my background, please check out my  <a href='/assets/resume_dec2021.pdf'><strong>résumé</strong></a>  or contact me via email.
 
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -59,9 +59,44 @@ content:
   - title: Selected Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+- layout: top-middle
+        title: Pac-Man
+        #link: http://pacman-final-team-whatsupp.herokuapp.com/
+        # link_text: Project Website
+        additional_links:
+          - title: demo
+            icon: fab fa-gamepad
+            url: http://pacman-final-team-whatsupp.herokuapp.com/
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Contributors: Yi-Chi Wu, Charlie Shih, Chu-Yu Huang, Daniel Quintans, Shyam Sagar, Yuxing Shi
+        description: | # this will include new lines to allow paragraphs
+          As the technical lead of this project, my main job is to design the APIs of the game. It was quite a fun ride coming up with the APIs and the structure of the game from scratch; 
+          and since I have to think about the project in the big picture in order to distribute the coding sections gracefully to the developers and jump in whenever technical problems arise, I got very familiar with the project.
+          I had a great time working on this project and I'm very fond of the outcomes.
+
+- layout: top-middle
+        title: Chatapp
+        #link: http://chatapp-final-team-whatsupp.herokuapp.com/
+        # link_text: Project Website
+        additional_links:
+          - title: demo
+            icon: fab fa-comments
+            url: http://pacman-final-team-whatsupp.herokuapp.com/
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Contributors: Yi-Chi Wu, Charlie Shih, Chu-Yu Huang, Daniel Quintans, Nishant Satpathy, Shyam Sagar, Yuxing Shi
+        description: | # this will include new lines to allow paragraphs
+          As a developer of this project, I was mostly in charge of the GUI design of the frontend. Since I had no prior frontend experience before this, I spent some time teaching myself react.js. 
+          This project made me realized that frontend is also my cup of tea; I very much enjoyed the somewhat real-time change that we can visualize with the frontend.
+
       - layout: top-middle
         title: Music Generation for Films
-        link: https://www.youtube.com/watch?v=N2DzU_CHsRA
+        #link: https://www.youtube.com/watch?v=N2DzU_CHsRA
         # link_text: Project Website
         additional_links:
           - title: demo
@@ -74,11 +109,23 @@ content:
           Contributors: Yi-Chi Wu, Hsi-Ai Tsao
         description: | # this will include new lines to allow paragraphs
           My dear friend and I came up with this project for our final presentation of the course - Applications of AI Neural Network Models.
-          Hopefully, it showcased our capability of dealing with both visual and audio data and both the problems of classification and generation. We learned a lot and had a blast while making this. You can check out the demo of this project by clicking on the above link.
+          Hopefully, it showcased our capability of dealing with both visual and audio data and both the problems of classification and generation. We learned a lot and had a blast while making this.
 
   - title: Experience  # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Rice University
+        link: https://unhelkar.github.io/research/
+        # link_text: boringcompany.com
+        sub_title: Lab Member
+        caption: Jan. 2022 -
+        quote: >
+            Advised by Vaibhav Unhelkar, Assistant Professor.
+        description: | # this will include new lines to allow paragraphs
+            On the spring semester, I will start to work with Professor Unhelkar on a Robotics + Machine Learning project.
+
+
       - layout: left
         title: AndroVideo Inc.
         link: http://www.androvideo.com/
