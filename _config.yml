@@ -84,7 +84,7 @@ content:
         additional_links:
           - title: demo
             icon: fas fa-comments
-            url: http://pacman-final-team-whatsupp.herokuapp.com/
+            url: http://chatapp-final-team-whatsupp.herokuapp.com/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
