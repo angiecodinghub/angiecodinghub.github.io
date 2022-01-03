@@ -60,11 +60,28 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Sokoban on Ice
+        #link: http://pacman-final-team-whatsupp.herokuapp.com/
+        # link_text: Project Website
+        additional_links:
+          - title: presentation
+            icon: fas fa-file-powerpoint
+            url: https://docs.google.com/presentation/d/1j-d2_sDOvqu0D_eU_lx4H2YFRB8YUz6KUX4TIoS419M/edit?usp=sharing
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Contributors: Yi-Chi Wu, Ryan Hall
+        description: | # this will include new lines to allow paragraphs
+          We had a blast working on this project. It took us quite an amount of time to come up with a smart encoding for the start state, the goal state, the operator encodings, the frame axioms, and the operator exclusion. 
+          Additionally, high level of precision was required to build a robust software, and it was hard to debug. Thankfully, we arrived at a great outcome, and it was highly satisfiable.
+
+      - layout: top-middle
         title: Pac-Man
         #link: http://pacman-final-team-whatsupp.herokuapp.com/
         # link_text: Project Website
         additional_links:
-          - title: demo
+          - title: application
             icon: fa fa-gamepad
             url: http://pacman-final-team-whatsupp.herokuapp.com/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -82,7 +99,7 @@ content:
         #link: http://chatapp-final-team-whatsupp.herokuapp.com/
         # link_text: Project Website
         additional_links:
-          - title: demo
+          - title: application
             icon: fas fa-comments
             url: http://chatapp-final-team-whatsupp.herokuapp.com/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
