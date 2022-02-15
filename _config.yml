@@ -50,7 +50,7 @@ about_profile_image: images/profile_ann.jpg
 about_content: | # this will include new lines to allow paragraphs
   <br/>
   Hi, my name is Angela, and I'm currently pursuing a Master of Computer Science degree at Rice University. My interest lies in the intersection of **Artificial Intelligence**, **Robotics**, and **Computer Vision**.
-  If you would like to know more about my background, please check out my  <a href='/assets/resume_jan2022.pdf'><strong>résumé</strong></a>  or contact me via email.
+  If you would like to know more about my background, please check out my  <a href='/assets/resume_feb2022.pdf'><strong>résumé</strong></a>  or contact me via email.
 
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -176,7 +176,7 @@ content:
           Opened in 1912, Rice is a private research university in Houston, Texas. Constantly ranked as one of the top-ranked schools in the United States, 
           it is known primarily for programs in science and engineering.
         description: | # this will include new lines to allow paragraphs
-          I am taking Statistical Machine Learning, Computer Graphics and Computer Science Project this semester.
+          I am taking Statistical Machine Learning, Introduction of Computer Security and Computer Science Project this semester.
       - layout: left
         title: National Taiwan University
         caption: 2017 - 2021
