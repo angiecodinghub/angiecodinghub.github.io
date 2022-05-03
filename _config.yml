@@ -49,12 +49,63 @@ additional_links:
 about_profile_image: images/profile_ann.jpg
 about_content: | # this will include new lines to allow paragraphs
   <br/>
-  Hi, my name is Angela, and I'm currently pursuing a Master of Computer Science degree at Rice University. My interest lies in the intersection of **Artificial Intelligence**, **Robotics**, and **Computer Vision**.
-  If you would like to know more about my background, please check out my  <a href='/assets/resume_feb2022.pdf'><strong>résumé</strong></a>  or contact me via email.
+  Hi, my name is Angela, and I'm currently pursuing a Master of Computer Science degree at Rice University. My interest lies in the intersection of **Robotics**, **Artificial Intelligence**, and **Computer Vision**.
+  If you would like to know more about my background, please check out my  <a href='/assets/resume_may2022.pdf'><strong>résumé</strong></a>  or contact me via email.
 
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
+  - title: Experience  # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Google LLC
+        link: https://unhelkar.github.io/research/
+        # link_text: boringcompany.com
+        sub_title: Software Engineering Intern
+        caption: May. 2022 -
+        quote: >
+            YouTube.
+        description: | # this will include new lines to allow paragraphs
+            I will be interning in the YouTube team this summer.
+
+      - layout: left
+        title: Rice University
+        link: https://unhelkar.github.io/research/
+        # link_text: boringcompany.com
+        sub_title: Lab Member
+        caption: Jan. 2022 -
+        quote: >
+            Advised by Vaibhav Unhelkar, Assistant Professor.
+        description: | # this will include new lines to allow paragraphs
+            I built a Reinforcement Learning infrastructure for physical Panda robots to conduct Reinforcement Learning and Imitation Learning experiments in ROS.
+            I will continue to work with the group in the coming fall semester.
+
+      - layout: left
+        title: AndroVideo Inc.
+        link: http://www.androvideo.com/
+        # link_text: boringcompany.com
+        sub_title: Artificial Intelligence R&D Intern
+        caption: Sep. 2020 - Feb. 2021
+        quote: >
+            An A.I. camera company with an integration of software and hardware that strives to develop simple yet effective products. 
+        description: | # this will include new lines to allow paragraphs
+            I worked on a team project where I made a pull-up counter with a **pose estimation** model on TensorFlow.
+            I also made a computer software for **facial expression recognition** that can run in real-time with close-to-zero lagging.
+
+      - layout: left
+        title: National Tsing Hua University
+        link: http://dcs-en.site.nthu.edu.tw/index.php
+        # link_text: boringcompany.com
+        sub_title: Summer Intern
+        caption: Jul. 2020 - Sep. 2020
+        quote: >
+            Advised by Nen-Fu ”Fred” Huang, Distinguished Professor and Dean, College of EECS.
+        description: | # this will include new lines to allow paragraphs
+            Although I've learned concepts of machine learning before, the internship marked the start of my journey in the area officially.
+            I got to contribute and participate a lot in the creation of the soybean detection model, and learned different facets to consider in an industry-academia collaboration.
+
+
   - title: Selected Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -127,44 +178,6 @@ content:
           My dear friend and I came up with this project for our final presentation of the course - Applications of AI Neural Network Models.
           Hopefully, it showcased our capability of dealing with both visual and audio data and both the problems of classification and generation. We learned a lot and had a blast while making this.
 
-  - title: Experience  # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Rice University
-        link: https://unhelkar.github.io/research/
-        # link_text: boringcompany.com
-        sub_title: Lab Member
-        caption: Jan. 2022 -
-        quote: >
-            Advised by Vaibhav Unhelkar, Assistant Professor.
-        description: | # this will include new lines to allow paragraphs
-            On the spring semester, I will start to work with Professor Unhelkar on a Robotics + Machine Learning project.
-
-
-      - layout: left
-        title: AndroVideo Inc.
-        link: http://www.androvideo.com/
-        # link_text: boringcompany.com
-        sub_title: Artificial Intelligence R&D Intern
-        caption: Sep. 2020 - Feb. 2021
-        quote: >
-            An A.I. camera company with an integration of software and hardware that strives to develop simple yet effective products. 
-        description: | # this will include new lines to allow paragraphs
-            I worked on a team project where I made a pull-up counter with a **pose estimation** model on TensorFlow.
-            I also made a computer software for **facial expression recognition** that can run in real-time with close-to-zero lagging.
-
-      - layout: left
-        title: National Tsing Hua University
-        link: http://dcs-en.site.nthu.edu.tw/index.php
-        # link_text: boringcompany.com
-        sub_title: Summer Intern
-        caption: Jul. 2020 - Sep. 2020
-        quote: >
-            Advised by Nen-Fu ”Fred” Huang, Distinguished Professor and Dean, College of EECS.
-        description: | # this will include new lines to allow paragraphs
-            Although I've learned concepts of machine learning before, the internship marked the start of my journey in the area officially.
-            I got to contribute and participate a lot in the creation of the soybean detection model, and learned different facets to consider in an industry-academia collaboration.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -176,7 +189,7 @@ content:
           Opened in 1912, Rice is a private research university in Houston, Texas. Constantly ranked as one of the top-ranked schools in the United States, 
           it is known primarily for programs in science and engineering.
         description: | # this will include new lines to allow paragraphs
-          I am taking Statistical Machine Learning, Introduction of Computer Security and Computer Science Project this semester.
+          I am taking Data Science and Parallel Computing on Fall 2022.
       - layout: left
         title: National Taiwan University
         caption: 2017 - 2021
